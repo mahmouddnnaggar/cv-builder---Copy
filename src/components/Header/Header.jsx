@@ -2,6 +2,7 @@
 import AnimationField from "../AnimationField/AnimationField";
 import Lottie from "lottie-react";
 import headerAnimate from "../../assets/img/animate/Animation - 1740735347345.json";
+import Link from "next/link";
 export default function Header() {
   return (
     <>
@@ -51,9 +52,14 @@ export default function Header() {
                 </p>
               </AnimationField>
               <AnimationField delay={0.6}>
-                <button className="btn px-6 py-2 text-sm  hover:scale-105 transition-all duration-300">
+              <Link 
+              href={'./template'}>
+              <button
+                 className="btn px-6 py-2 text-sm  hover:scale-105 transition-all duration-300">
                   Get Started
                 </button>
+              </Link>
+
               </AnimationField>
             </div>
             {/* ! =====right-side======> */}

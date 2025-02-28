@@ -13,4 +13,4 @@ export default function About() {
   );
 }
 
-export const dynamic = "force-dynamic"; // أضف ده عشان يخلي الصفحة ديناميكية
+export const dynamic = "force-dynamic"; 

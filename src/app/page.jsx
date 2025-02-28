@@ -18,4 +18,4 @@ export default function Home() {
   );
 }
 
-export const dynamic = "force-dynamic"; // أضف ده عشان يخلي الصفحة ديناميكية
+export const dynamic = "force-dynamic"; 

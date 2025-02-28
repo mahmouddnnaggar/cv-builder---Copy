@@ -243,7 +243,8 @@ export default function NavBar() {
               className="classy-navbar-toggler group h py-4 mb-3 px-2 block lg:hidden cursor-pointer "
             >
               <div
-                className={` w-8 h-[3px] transition-all duration-500  ${iconBarColor}  ${iconBarRotate} before:transition-all before:duration-300  after:transition-all   after:duration-300       relative after:absolute after:w-8 after:h-[3px] ${iconBarAnimate} after:bg-white  before:absolute before:w-8 before:h-[3px]  before:bg-white`}
+                className={` w-8 h-[3px] transition-all duration-500  ${iconBarColor}  ${iconBarRotate} before:transition-all before:duration-300  after:transition-all   after:duration-300     relative after:absolute after:w-8 after:h-[3px] ${iconBarAnimate} after:bg-white  before:absolute before:w-8 before:h-[3px]  before:bg-white`}
+                style={SlideNav === "left-[-293px]" ? {scale: 1} : {scale: 0}}
               />
             </div>
           </div>

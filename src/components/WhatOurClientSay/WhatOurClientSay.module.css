@@ -1,0 +1,27 @@
+/* WhatOurClientSay.module.css
+.bullet {
+  display: inline-flex !important;
+  justify-content: center;
+  align-items: center;
+  width: 29px;
+  height: 29px;
+  background-color: #fff;
+  opacity: 0.7;
+  margin: 0 6px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px !important;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.bulletActive {
+  background-color: #b2caf4;
+  opacity: 1;
+  position: relative;
+} */

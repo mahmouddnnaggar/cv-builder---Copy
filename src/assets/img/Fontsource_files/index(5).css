@@ -1,0 +1,8 @@
+/* material-icons@5.1.1-latin-400-normal */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/material-icons@5.1.1/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/material-icons@5.1.1/latin-400-normal.woff) format('woff');
+}

@@ -1,14 +1,11 @@
 "use client";
-import Image from "next/image";
-import aboutImg from "../../assets/img/about1.png";
-import checkImg from "../../assets/img/check.png";
 import Lottie from "lottie-react";
 import aboutAnimate from "../../assets/img/animate/about.json";
 import checkAnimate from "../../assets/img/animate/check.json";
-import Label from "../Label/Label";
-import HowItWorks from "../HowItWorks/HowItWorks";
-import AnimationField from "../AnimationField/AnimationField";
-import AnimationCard from "../AnimationCard/AnimationCard";
+import Label from "../Label/Label.jsx";
+import HowItWorks from "../HowitWorks/HowItWorks.jsx";
+import AnimationField from "../AnimationField/AnimationField.jsx";
+import AnimationCard from "../AnimationCard/AnimationCard.jsx";
 export default function LearnAboutUs() {
   return (
     <>
